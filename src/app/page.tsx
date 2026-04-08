@@ -10,14 +10,14 @@ export const metadata: Metadata = {
   description:
     "Desarrollador Fullstack especializado en Next.js, TypeScript y Node.js. Construyo aplicaciones web completas, desde la interfaz hasta el servidor.",
 
-  metadataBase: new URL("https://salvadordsf.vercel.app"),
+  metadataBase: new URL("https://salvadordisabatto.com.ar/"),
 
   alternates: {
     canonical: "/",
   },
 
   authors: [
-    { name: "Salvador Di Sabatto", url: "https://github.com/salvadordsf" },
+    { name: "Salvador Di Sabatto", url: "https://salvadordisabatto.com.ar/" },
   ],
   keywords: [
     "Salvador Di Sabatto",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 
   openGraph: {
     type: "website",
-    url: "https://salvadordsf.vercel.app",
+    url: "https://salvadordisabatto.com.ar/",
     title: "Salvador Di Sabatto — Desarrollador Fullstack",
     description:
       "Desarrollador Fullstack especializado en Next.js, TypeScript y Node.js. Construyo aplicaciones web completas, desde la interfaz hasta el servidor.",
