@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Download } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -44,6 +45,25 @@ export default function Hero() {
         >
           Contacto
         </Link>
+      </div>
+      <div className="flex items-center gap-2">
+        <a
+          href="/CV%20Salvador%20Di%20Sabatto%20ES.pdf"
+          download
+          className="flex items-center gap-1.5 text-sm text-zinc-400 hover:text-white transition-colors"
+        >
+          <Download size={14} />
+          CV · ES
+        </a>
+        <span className="text-zinc-700">·</span>
+        <a
+          href="/CV%20Salvador%20Di%20Sabatto%20EN.pdf"
+          download
+          className="flex items-center gap-1.5 text-sm text-zinc-400 hover:text-white transition-colors"
+        >
+          <Download size={14} />
+          CV . EN
+        </a>
       </div>
     </section>
   );

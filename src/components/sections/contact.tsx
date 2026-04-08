@@ -1,6 +1,8 @@
 import { Mail } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "../ui/icons";
 import Subtitle from "../ui/subtitles";
+import CvCard from "../ui/cv-card";
+import LinkCard from "../ui/link-card";
 
 const links = [
   {
@@ -9,6 +11,7 @@ const links = [
     icon: Mail,
     value: "salvadordisabatto@gmail.com",
     external: false,
+    download: false,
   },
   {
     label: "LinkedIn",
@@ -16,6 +19,7 @@ const links = [
     icon: LinkedinIcon,
     value: "Salvador Di Sabatto",
     external: true,
+    download: false,
   },
   {
     label: "GitHub",
@@ -23,6 +27,20 @@ const links = [
     icon: GithubIcon,
     value: "salvadordsf",
     external: true,
+    download: false,
+  },
+];
+
+const cvLinks = [
+  {
+    label: "Currículum",
+    href: "/CV%20Salvador%20Di%20Sabatto%20ES.pdf",
+    value: "Descargar CV — Español",
+  },
+  {
+    label: "Currículum",
+    href: "/CV%20Salvador%20Di%20Sabatto%20EN.pdf",
+    value: "Descargar CV — Inglés",
   },
 ];
 
@@ -42,46 +60,15 @@ export default function Contact() {
       </div>
 
       <div className="flex flex-col gap-2">
-        {links.map(({ label, href, icon: Icon, value, external }) => (
-          <a
-            key={label}
-            href={href}
-            {...(external
-              ? { target: "_blank", rel: "noopener noreferrer" }
-              : { target: "_blank"})}
-            className="group flex items-center justify-between p-4 rounded-xl border border-zinc-800 bg-zinc-900 hover:border-zinc-600 hover:bg-zinc-800/60 transition-all duration-200"
-          >
-            <div className="flex items-center gap-3">
-              <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-zinc-800 group-hover:bg-zinc-700 transition-colors">
-                <Icon
-                  size={15}
-                  className="text-zinc-400 group-hover:text-white transition-colors"
-                />
-              </span>
-              <div className="flex flex-col">
-                <span className="text-xs text-zinc-500">{label}</span>
-                <span className="text-sm text-zinc-300 group-hover:text-white transition-colors">
-                  {value}
-                </span>
-              </div>
-            </div>
-
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="14"
-              height="14"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="text-zinc-600 group-hover:text-zinc-400 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-200"
-            >
-              <path d="M7 17L17 7M7 7h10v10" />
-            </svg>
-          </a>
+        {links.map((link) => (
+          <LinkCard key={link.value} {...link} />
         ))}
+
+        <div className="flex gap-2">
+          {cvLinks.map((cv) => (
+            <CvCard key={cv.value} {...cv} />
+          ))}
+        </div>
       </div>
     </section>
   );
