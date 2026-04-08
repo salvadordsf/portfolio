@@ -48,7 +48,7 @@ export default function Hero() {
       </div>
       <div className="flex items-center gap-2">
         <a
-          href="/CV%20Salvador%20Di%20Sabatto%20ES.pdf"
+          href="/cv-salvador-di-sabatto-es.pdf"
           download
           className="flex items-center gap-1.5 text-sm text-zinc-400 hover:text-white transition-colors"
         >
@@ -57,7 +57,7 @@ export default function Hero() {
         </a>
         <span className="text-zinc-700">·</span>
         <a
-          href="/CV%20Salvador%20Di%20Sabatto%20EN.pdf"
+          href="/cv-salvador-di-sabatto-en.pdf"
           download
           className="flex items-center gap-1.5 text-sm text-zinc-400 hover:text-white transition-colors"
         >
