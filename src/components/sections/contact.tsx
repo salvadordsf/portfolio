@@ -34,12 +34,12 @@ const links = [
 const cvLinks = [
   {
     label: "Currículum",
-    href: "/CV-Salvador-Di-Sabatto-es.pdf",
+    href: "/cv-salvador-di-sabatto-es.pdf",
     value: "Descargar CV — Español",
   },
   {
     label: "Currículum",
-    href: "/CV-Salvador-Di-Sabatto-en.pdf",
+    href: "/cv-salvador-di-sabatto-en.pdf",
     value: "Descargar CV — Inglés",
   },
 ];
