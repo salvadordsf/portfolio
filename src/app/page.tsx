@@ -82,9 +82,9 @@ export default function Home() {
   return (
     <main className="max-w-3xl mx-auto px-6 py-24 space-y-25">
       <Hero />
-      <About />
-      <Stack />
       <Projects />
+      <Stack />
+      <About />
       <Contact />
     </main>
   );

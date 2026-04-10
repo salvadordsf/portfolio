@@ -26,8 +26,7 @@ export default function Hero() {
       {/* Bajada */}
       <p className="text-zinc-400 leading-relaxed max-w-lg text-base">
         Construyo aplicaciones web completas, desde la interfaz hasta el
-        servidor. Me enfoco en código mantenible y productos que funcionen de
-        verdad. Me adapto rápido, aprendo en el camino y entrego productos que
+        servidor. Me enfoco en código mantenible, limpio y escalable. Me adapto rápido, aprendo en el camino y entrego productos que
         funcionan.
       </p>
 
