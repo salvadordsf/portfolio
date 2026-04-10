@@ -9,7 +9,9 @@ export const metadata: Metadata = {
   title: "Salvador Di Sabatto — Desarrollador Fullstack",
   description:
     "Desarrollador Fullstack especializado en Next.js, TypeScript y Node.js. Construyo aplicaciones web completas, desde la interfaz hasta el servidor.",
-
+  verification: {
+    google: "pW-glMTpnUdkddOH28dVAJr7jOzpkyQKMiPMfjRqylA",
+  },
   metadataBase: new URL("https://salvadordisabatto.com.ar/"),
 
   alternates: {
