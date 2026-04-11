@@ -54,7 +54,7 @@ export const projects: Project[] = [
       "Tailwind CSS",
       "TanStack Query",
     ],
-    demoUrl: "https://ecometrics-snowy.vercel.app/autor",
+    demoUrl: "https://ecometrics-snowy.vercel.app/",
     repoUrl:
       "https://github.com/salvadordsf/ecometrics",
     documentationUrl: "https://deepwiki.com/salvadordsf/ecometrics",
