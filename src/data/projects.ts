@@ -44,4 +44,20 @@ export const projects: Project[] = [
     status: "live",
     imageUrl: "/meli-tool.PNG"
   },
+  {
+    title: "Ecometrics",
+    description:
+      "Ecometrics es una plataforma que integra datos económicos oficiales del Banco Central de la República Argentina y el Ministerio de Economía - Secretaría de Obras Públicas para ofrecer cálculos precisos y herramientas de análisis. Cuenta con tres calculadoras económicas: Calculadora de inflación acumulada, Calculadora de poder adquisitivo y Calculadora de alquileres.",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "TanStack Query",
+    ],
+    demoUrl: "https://ecometrics-snowy.vercel.app/autor",
+    repoUrl:
+      "https://github.com/salvadordsf/ecometrics",
+    status: "live",
+    imageUrl: "/ecometrics.PNG"
+  },
 ];
