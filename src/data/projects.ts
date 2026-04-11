@@ -57,6 +57,7 @@ export const projects: Project[] = [
     demoUrl: "https://ecometrics-snowy.vercel.app/autor",
     repoUrl:
       "https://github.com/salvadordsf/ecometrics",
+    documentationUrl: "https://deepwiki.com/salvadordsf/ecometrics",
     status: "live",
     imageUrl: "/ecometrics.PNG"
   },
