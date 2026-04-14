@@ -83,7 +83,7 @@ export const metadata: Metadata = {
       { url: "/icons/apple-touch-icon.png", sizes: "180x180" },
     ],
   },
-  manifest: "/icon/site.webmanifest",
+  manifest: "/icons/site.webmanifest",
 };
 
 export default function Home() {
